@@ -1,0 +1,88 @@
+body{
+    font-family: Poppins;
+}
+.socialmedia li{
+    list-style: none;
+    
+}
+.socialmedia img {
+    margin-right: 10px;
+    max-width: 24px;
+
+}
+.socialmedia ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+   border-top: solid color;
+}
+.pic img {
+    margin-right: 10px;
+    max-width: 150px; 
+    padding: 10px;
+    margin-top: -100px;
+
+}
+.nav{
+    margin: 20px 100px 0px;
+}
+.contact img  {
+    margin-right: 10px;
+    max-width: 24px;
+    list-style: none;
+}
+.contact ul , .interest ul{
+    list-style: none;
+}
+.interest img{
+    width: 30px;
+    float: inline-start;
+    padding: 20px;
+}
+.sskill{
+    width: 25%;
+    float: left;
+    margin: 10px;
+    border-right: 3px solid rgb(134, 133, 133);
+}
+.hskill{
+    width: 70%;
+    float: right;
+}
+.nav{
+    border-left: 3px solid  rgb(134, 133, 133);
+    border-bottom: 3px solid  rgb(134, 133, 133) ;
+    margin-right: 10px;
+    
+}
+.Language{
+    border-top:3px solid  rgb(134, 133, 133);
+    border-bottom: 3px solid  rgb(134, 133, 133);
+}
+.skill{
+    border-bottom: 3px solid  rgb(134, 133, 133);
+}
+.education{
+    border-top:3px solid  rgb(134, 133, 133) ;
+    border-bottom: 3px solid  rgb(134, 133, 133);
+}
+.web{
+    border-top:3px solid  rgb(134, 133, 133) ;
+    border-bottom: 3px solid  rgb(134, 133, 133);
+}
+.p1 span{
+    display: block;
+    padding: 10px;
+}
+body{
+    text-align: justify;
+}
+.stop{
+    clear: both;
+}
+.footer{
+    text-align: center;
+ border: 1px solid black;
+ padding: 10px;
+ 
+}
