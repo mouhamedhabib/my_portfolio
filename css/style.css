@@ -12,7 +12,7 @@ html {
 .part1 img,li{
     list-style: none;
 }
-.logo img {
+.logo img{
 width: 30%;
 width: 80px;
 float: left;
@@ -21,52 +21,41 @@ float: left;
     clear: both;
 }
 .menu{
-  text-align: center;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   margin-top: 3rem;
+}
+.menu nav ul{
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: 3rem;
+  flex-direction: row;
+}
+.menu nav ul li {
+  margin: 2rem;
 }
 .menu a{
-    font-family: Poppins;
-    font-weight: bold; 
-    font-size: 14px;
-    text-decoration: none;
-    color: black;
-    margin: 10px;
-    color: #333; 
-    position: relative;
-}
-.menu li{
-    margin: -35px;
-    margin-right: 10px;
-    text-align: right;
-    padding-left: -50px;
-    text-align: right;
-    display: inline-block;
-    margin: 10px;
-    margin-top: 15px;
+  padding: 1em;
+  font-family: Poppins;
+  font-weight: bold; 
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
 }
 nav a::before {
-    content: ''; 
-    position: absolute; 
     text-align: center;
-    width: 100%; 
-    height: 100%; 
-    border-radius: 10px; 
     background-color: transparent; 
     transition: background-color 0.3s; 
-    z-index: -1; 
 }
 
-nav a:hover::before {
-    background-color: #ffa807; 
-}
 nav a {
+    padding: 0.5em;
     transition: color 0.08s ease-in-out; 
 }
 nav a:hover {
-    color: rgb(255, 255, 255); 
+    color: white;
+    background-color: #ffa807; 
+    border-radius: 2em;
 }
 .stop{
     clear: both;
@@ -150,6 +139,7 @@ nav a:hover {
           }
       
         .calltoaction1{
+            background-color: #000000;
             border: 1px solid #fff;
             padding: 10px;
             width: 20%;
@@ -161,10 +151,11 @@ nav a:hover {
         }
         .calltoaction1 a{
             text-decoration: none;
-            color: #000000;    
+            color: #ffffff;    
         }
         .calltoaction2{
-            border: 1px solid#000;
+          background-color: #000000;
+          border: 1px solid #000000;
             padding: 10px;
             width: 20%;
             text-align: center;
@@ -173,6 +164,7 @@ nav a:hover {
             display:inline-block;  
         }
         .calltoaction2 a{
+             
             text-decoration: none;
             color: #000000;    
         }

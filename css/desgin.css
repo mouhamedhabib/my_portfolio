@@ -1,0 +1,28 @@
+body{
+    width: 70%;
+    margin: auto;
+}
+.bloct{
+    width: 50%;
+    float: left;
+    margin-top: 10rem;
+}
+.bloct h2{
+    font-size: 3rem;
+    color: #000000;
+    font-style: bold;
+}
+.bloct p{
+    width: 80%;
+    font: size 1rem;
+    line-height: 2;
+    color: #9d9d9d;
+    text-align: justify;
+}
+.bloct ul,li{
+list-style: none;
+left: 12rem;
+text-align: left;
+margin-bottom: 1rem;
+font-size: 1rem;
+}
