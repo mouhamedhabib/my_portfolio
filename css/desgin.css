@@ -31,3 +31,19 @@ font-size: 1rem;
     float: left;
     margin-top: 10rem;
 }
+.form{
+    width: 50%;
+    float: left;
+    display: inline;
+}
+.text1 input{
+    font-size: 2rem;
+}
+.email1 input{
+    margin-top: 5rem;
+    font-size: 2rem; 
+}
+.email1 label{
+    margin-top: 10rem;
+     
+}
