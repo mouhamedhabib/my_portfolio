@@ -5,7 +5,6 @@ body{
 .bloct{
     width: 50%;
     float: left;
-    margin-top: 10rem;
 }
 .bloct h2{
     font-size: 3rem;
@@ -35,15 +34,41 @@ font-size: 1rem;
     width: 50%;
     float: left;
     display: inline;
+    margin-top: 3.1rem;
 }
 .text1 input{
-    font-size: 2rem;
+    font-size: 1rem;
+    width:  20rem;
+    height: 2rem;
+    border: #000000 solid 0.05rem;
 }
 .email1 input{
     margin-top: 5rem;
-    font-size: 2rem; 
+    font-size: 1rem; 
 }
+.email1 input{
+    margin-top: 4rem;
+    
+     }
 .email1 label{
-    margin-top: 10rem;
-     
+    position: absolute;
+    margin-top: 2.7rem;
+    
+}
+.submit {
+    margin-top: -7.5rem;
+}
+.submitting{
+    margin-top: 2rem;
+    padding-left: -8rem;
+}
+.text1 label{
+ display:block;
+ margin:10px 0;
+
+
+}
+
+.contact{margin-top: 10rem;
+    
 }
