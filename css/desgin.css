@@ -72,3 +72,8 @@ font-size: 1rem;
 .contact{margin-top: 10rem;
     
 }
+.buttom1 input {
+    background-color: #ffe57e;
+    font-size: 1rem;
+    border: #ffffff solid 0 ;
+}
