@@ -17,14 +17,48 @@ html {
     margin: auto;
     width: 80%;
 }
+
+body.home .section-home-voix .bonjours {
+  color: #ff3e47;
+  font-family: Quentin,sans-serif;
+  font-size: 5rem;
+  position: relative
+}
+.navbar-nav a{
+  margin-left: 2.5rem;
+  
+}
+.navbar ul {
+   left: 50%;
+   margin-left: 25rem;
+}
+body.home .section-home-voix .bonjours .bonjour {
+  display: block;
+  opacity: 0
+}
+
+body.home .section-home-voix .bonjours .bonjour:first-child {
+  position: relative
+}
+
+body.home .section-home-voix .bonjours .bonjour:not(:first-child) {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+
+
+
 .part1 img,li{
     list-style: none;
 }
-.logo img{
+.navbar-brand img{
 width: 30%;
-width: 80px;
+width: 3rem;
 float: left;
-margin-top: 1.5rem;
+margin-top: 0.5rem;
 
 }
 .logo{
@@ -126,6 +160,10 @@ nav a:hover {
     font-size: 10px;
   font-family: Poppins;
   font-weight: lighter; 
+}
+ p.para{
+  font-size: 3rem;
+  
 }
 .maintext a{
     width: 20%;
