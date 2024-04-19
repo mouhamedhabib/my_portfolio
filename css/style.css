@@ -12,6 +12,7 @@ html {
   top: 0;
   left: 0;
   z-index: 1000;
+  box-shadow: 0px 3px 10px rgba(179, 179, 179, 0.708);
 }
 .part1,.part3,.part4,.part5{
     margin: auto;
@@ -31,6 +32,15 @@ body.home .section-home-voix .bonjours {
 .navbar ul {
    left: 50%;
    margin-left: 25rem;
+}
+@media screen and (min-width: 300px){
+  .navbar ul{
+    left: 50;
+    margin-left: 0;
+    }
+    .navbar-toggler-icon{
+      margin-left:  -8rem;
+    }
 }
 body.home .section-home-voix .bonjours .bonjour {
   display: block;
@@ -54,7 +64,7 @@ body.home .section-home-voix .bonjours .bonjour:not(:first-child) {
 .part1 img,li{
     list-style: none;
 }
-.navbar-brand img{
+/*.navbar-brand img{
 width: 30%;
 width: 3rem;
 float: left;
@@ -69,7 +79,7 @@ margin-top: 0.5rem;
     width: 10%;
     margin-top: 1.5rem;
   }
-}
+}*/
 @media screen and (max-width: 600px){
   .logo{
     padding-left: 2rem;
